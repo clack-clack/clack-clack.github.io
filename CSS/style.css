@@ -118,6 +118,16 @@ nav {
   color: #21243D;
 }
 
+@media (max-width: 856px) {
+  .top, .posts, .works, .footer {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .top, .posts, .works, .footer {
+    max-width: none;
+  }
+}
 .top {
   padding: 0 0 100px 0;
   max-width: 856px;
